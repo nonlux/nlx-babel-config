@@ -1,0 +1,9 @@
+{
+  "nlx-generator-prj": {
+    "shortName": "babc",
+    "description": "My default babel config",
+    "projectType": "javascript",
+    "isGithub": "Y",
+    "projectName": "nlx-babel-config"
+  }
+}

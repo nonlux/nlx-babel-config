@@ -1,0 +1,8 @@
+name: 'babc'
+root: /home/user/src/nlx-babel-config
+pre: emacs --eval "(setq server-name \"babc\")" --daemon
+startup_window: editor
+windows:
+  - none: ''
+  - editor: emacsclient -s babc ./README.md
+  - zsh: ''
