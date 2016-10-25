@@ -1,7 +1,6 @@
-
-{
-  "presets": ["react", "es2015", "stage-0"],
-  "plugins": [
+moodule.exports = {
+  presets: ["react", "es2015", "stage-0"],
+  plugins: [
     "transform-runtime",
     "add-module-exports",
     "transform-decorators-legacy",
@@ -9,11 +8,11 @@
     "transform-export-extensions"
   ],
 
-  "env": {
-    "development": {
-      "plugins": [
+  env: {
+    development: {
+      plugins: [
         ["react-transform", {
-            "transforms": [{
+            transforms: [{
                 "transform": "react-transform-catch-errors",
                 "imports": ["react", "redbox-react"]
               }
@@ -22,4 +21,4 @@
       ]
     }
   }
-}
+};

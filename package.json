@@ -1,13 +1,13 @@
 {
-    "name": "nlx-babel-config",
-  "version": "0.0.1",
+  "name": "nlx-babel-config",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "nonlux <nonluxi@gmail.com>",
   "dependencies": {
-    "babel-register": "^6.16.3",
-    "babel-preset-react": "^6.11.1",
-    "babel-preset-es2015": "^6.14.0",
-    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
@@ -15,5 +15,21 @@
     "babel-plugin-transform-export-extensions": "^6.8.0",
     "babel-plugin-react-transform": "^2.0.2",
     "babel-plugin-typecheck": "^3.9.0"
+  },
+  "main": ".babelrc.js",
+  "scripts": {
+    "postinstall": "",
+    "ncu": "ncu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonlux/nlx-babel-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonlux/nlx-babel-config/issues"
+  },
+  "homepage": "https://github.com/nonlux/nlx-babel-config",
+  "devDependencies": {
+    "npm-check-updates": "^2.8.6"
   }
 }

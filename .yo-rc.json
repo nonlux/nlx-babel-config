@@ -4,6 +4,9 @@
     "description": "My default babel config",
     "projectType": "javascript",
     "isGithub": "Y",
-    "projectName": "nlx-babel-config"
+    "projectName": "nlx-babel-config",
+    "isBabel": false,
+    "isEslint": false,
+    "isWebpack": false
   }
 }
