@@ -1,5 +1,5 @@
 {
-  "nlx-generator-prj": {
+  "generator-prj": {
     "shortName": "babc",
     "description": "My default babel config",
     "projectType": "javascript",
