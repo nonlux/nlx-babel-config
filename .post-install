@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo $MODULE_PATH
+echo $DEST_PATH
+ln  $MODULE_PATH/.babelrc  $DEST_PATH/.babelrc
