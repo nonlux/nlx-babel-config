@@ -1,4 +1,5 @@
 #!/bin/bash
-
-ln  $MODULE_PATH/.babelrc  $DEST_PATH/.babelrc
-ln  $MODULE_PATH/.flowconfig  $DEST_PATH/.flowconfig
+rm $DEST_PATH/.babelrc
+rm $DEST_PATH/.flowconfig
+ln $MODULE_PATH/.babelrc     $DEST_PATH/.babelrc
+ln $MODULE_PATH/.flowconfig  $DEST_PATH/.flowconfig
