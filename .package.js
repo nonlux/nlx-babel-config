@@ -1,0 +1,19 @@
+module.export={
+  "devDependencies": [
+    "babel-cli",
+    "babel-plugin-react-transform",
+    "babel-plugin-add-module-exports",
+    "babel-plugin-transform-decorators-legacy",
+    "babel-plugin-transform-export-extensions",
+    "babel-plugin-transform-react-display-name",
+    "babel-plugin-transform-runtime",
+    "babel-plugin-typecheck",
+    "babel-preset-es2015",
+    "babel-preset-react",
+    "babel-preset-stage-0",
+    "flow-bin",
+    "babel-plugin-transform-flow-strip-types",
+    "babel-register"
+  ]
+}
+};
