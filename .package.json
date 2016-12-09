@@ -1,4 +1,5 @@
 {
+  "path":"cofig/babel",
   "devDependencies": [
     "babel-cli",
     "babel-plugin-react-transform",
